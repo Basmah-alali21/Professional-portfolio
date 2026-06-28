@@ -3,15 +3,15 @@ Hello! I am Basmah Bader Al Ali. I am a dedicated professional with a Diploma in
 
 ---
 
-### Experience & Recommendations
+### Professional Certificates
 Below are my verified professional achievements:
-- Office Management Diploma – Princess Nourah University
-- Administrative Training Completion – Ministry of the National Guard – Health Affairs
+- [Office Management Diploma – Princess Nourah University](https://github.com/Basmah-alali21/Professional-portfolio/blob/main/Office_Management_Exit_Exam.pdf)
+- [Administrative Training Completion – Ministry of the National Guard – Health Affairs](https://github.com/Basmah-alali21/Professional-portfolio/blob/main/Ministry_of_National_Guard_.pdf)
 
 ---
 
 ### Experience & Recommendations
-- Training Recommendation Letter – Ministry of the National Guard – Health Affairs
+- [Training Recommendation Letter – Ministry of the National Guard – Health Affairs](https://github.com/Basmah-alali21/Professional-portfolio/blob/main/Training_Recommendation_Letter_N.pdf)
 
 ---
 
