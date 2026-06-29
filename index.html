@@ -7,30 +7,48 @@
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Outfit', sans-serif; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #f8fafc; line-height: 1.8; padding: 80px 20px; min-height: 100vh; }
+        body { font-family: 'Outfit', sans-serif; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #f8fafc; line-height: 1.8; padding: 60px 20px; min-height: 100vh; }
         @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
-        .container { max-width: 800px; margin: 0 auto; background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); padding: 60px; border-radius: 40px; border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); animation: fadeIn 1s ease-out; }
-        h1 { font-size: 2.8em; margin-bottom: 10px; color: #38bdf8; letter-spacing: -1px; }
-        .contact-info { margin-bottom: 40px; color: #94a3b8; font-size: 1.1em; }
-        .section { margin-bottom: 50px; }
-        h2 { color: #38bdf8; margin-bottom: 25px; font-size: 1.6em; text-transform: uppercase; letter-spacing: 2px; border-bottom: 1px solid #334155; padding-bottom: 10px; }
+        .container { max-width: 850px; margin: 0 auto; background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(15px); padding: 50px; border-radius: 40px; border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); animation: fadeIn 1s ease-out; }
+        h1 { font-size: 2.8em; margin-bottom: 30px; color: #38bdf8; }
+        .section { margin-bottom: 45px; }
+        h2 { color: #38bdf8; margin-bottom: 20px; font-size: 1.5em; text-transform: uppercase; letter-spacing: 2px; border-left: 4px solid #38bdf8; padding-left: 15px; }
+        p.about-text { color: #e2e8f0; font-size: 1.1em; line-height: 1.7; text-align: justify; }
+        .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px; }
+        .skill-tag { background: rgba(56, 189, 248, 0.1); padding: 12px; border-radius: 12px; text-align: center; color: #38bdf8; font-weight: 600; border: 1px solid rgba(56, 189, 248, 0.2); }
         ul { list-style: none; }
-        li { background: rgba(51, 65, 85, 0.5); margin: 15px 0; padding: 22px; border-radius: 20px; transition: all 0.3s ease; border: 1px solid transparent; animation: fadeIn 1s ease-out forwards; opacity: 0; }
-        li:nth-child(1) { animation-delay: 0.2s; }
-        li:nth-child(2) { animation-delay: 0.4s; }
-        li:nth-child(3) { animation-delay: 0.6s; }
+        li { background: rgba(51, 65, 85, 0.5); margin: 12px 0; padding: 18px; border-radius: 15px; transition: 0.3s; border: 1px solid transparent; }
         li:hover { background: rgba(56, 189, 248, 0.1); border-color: #38bdf8; transform: translateX(10px); }
-        a { color: #e2e8f0; text-decoration: none; font-weight: 500; display: block; }
+        a { color: #38bdf8; text-decoration: none; font-weight: 500; display: block; }
+        
+        /* Contact Section at the Bottom */
+        .contact-footer { border-top: 1px solid #334155; padding-top: 30px; margin-top: 50px; color: #94a3b8; text-align: center; }
+        .contact-footer a { display: inline-block; margin: 0 10px; color: #38bdf8; }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Basmah Bader Al Ali</h1>
-        <div class="contact-info">
-            <p>Phone: <a href="tel:+966504185402">0504185402</a></p>
-            <p>Email: <a href="mailto:basmahalali21@gmail.com">basmahalali21@gmail.com</a></p>
-            <p>LinkedIn: <a href="https://www.linkedin.com/in/basmaah?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">View Profile</a></p>
+
+        <div class="section">
+            <h2>Professional Profile</h2>
+            <p class="about-text">
+                Highly motivated and detail-oriented professional with a solid foundation in Office Administration and Management. I possess a deep commitment to operational excellence, workflow optimization, and high-quality administrative support. Throughout my training and experience, I have developed a keen ability to handle complex tasks, manage time efficiently, and collaborate effectively within diverse teams. I am eager to leverage my skills to contribute to organizational success and thrive in a fast-paced professional environment.
+            </p>
         </div>
+
+        <div class="section">
+            <h2>Key Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-tag">Office Administration</div>
+                <div class="skill-tag">Project Coordination</div>
+                <div class="skill-tag">Technical Writing</div>
+                <div class="skill-tag">Data Management</div>
+                <div class="skill-tag">Problem Solving</div>
+                <div class="skill-tag">Effective Communication</div>
+            </div>
+        </div>
+
         <div class="section">
             <h2>Certificates & Documents</h2>
             <ul>
@@ -38,6 +56,12 @@
                 <li><a href="Office_Management_Exit_Exam.pdf" target="_blank" rel="noopener noreferrer">Office Management Exit Exam</a></li>
                 <li><a href="Training_Recommendation_Letter_N.pdf" target="_blank" rel="noopener noreferrer">Training Recommendation Letter</a></li>
             </ul>
+        </div>
+
+        <div class="contact-footer">
+            <h2>Get In Touch</h2>
+            <p>Phone: <a href="tel:+966504185402">0504185402</a> | Email: <a href="mailto:basmahalali21@gmail.com">basmahalali21@gmail.com</a></p>
+            <p>Connect with me on LinkedIn: <a href="https://www.linkedin.com/in/basmaah?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">Basmah Alali</a></p>
         </div>
     </div>
 </body>
