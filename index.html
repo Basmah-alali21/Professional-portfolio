@@ -6,79 +6,39 @@
     <title>Basmah Bader Al Ali | Professional Portfolio</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
-        
         * { box-sizing: border-box; margin: 0; padding: 0; }
-        body { font-family: 'Outfit', sans-serif; background: #0f172a; color: #f8fafc; line-height: 1.8; padding: 80px 20px; }
-        
-        .container { 
-            max-width: 900px; margin: 0 auto; background: #1e293b; 
-            padding: 80px; border-radius: 40px; 
-            box-shadow: 0 25px 60px rgba(0,0,0,0.4);
-            animation: smoothFade 1.2s ease-out;
-        }
-
-        @keyframes smoothFade {
-            from { opacity: 0; transform: translateY(30px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        h1 { font-size: 3.2em; margin-bottom: 15px; color: #38bdf8; }
-        .subtitle { font-size: 1.4em; color: #94a3b8; margin-bottom: 60px; letter-spacing: 2px; }
-        
-        .section { margin-bottom: 70px; }
-        h2 { color: #38bdf8; margin-bottom: 30px; font-size: 1.8em; border-left: 5px solid #38bdf8; padding-left: 20px; }
-        p { margin: 25px 0; color: #cbd5e1; font-size: 1.1em; }
-        
-        ul { list-style: none; margin-top: 30px; }
-        li { 
-            background: #334155; margin: 20px 0; padding: 25px 30px; 
-            border-radius: 20px; transition: 0.4s;
-        }
-        li:hover { transform: scale(1.01); background: #475569; }
-        
-        a { color: #38bdf8; text-decoration: none; font-weight: 600; }
-        .contact-btn { 
-            display: inline-block; margin-top: 40px; padding: 20px 45px; 
-            background: #38bdf8; color: #0f172a; border-radius: 50px; 
-            font-weight: bold; font-size: 1.1em; transition: 0.3s; 
-        }
-        .contact-btn:hover { background: #e2e8f0; }
+        body { font-family: 'Outfit', sans-serif; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #f8fafc; line-height: 1.8; padding: 80px 20px; min-height: 100vh; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+        .container { max-width: 800px; margin: 0 auto; background: rgba(30, 41, 59, 0.7); backdrop-filter: blur(10px); padding: 60px; border-radius: 40px; border: 1px solid rgba(255, 255, 255, 0.1); box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); animation: fadeIn 1s ease-out; }
+        h1 { font-size: 2.8em; margin-bottom: 10px; color: #38bdf8; letter-spacing: -1px; }
+        .contact-info { margin-bottom: 40px; color: #94a3b8; font-size: 1.1em; }
+        .section { margin-bottom: 50px; }
+        h2 { color: #38bdf8; margin-bottom: 25px; font-size: 1.6em; text-transform: uppercase; letter-spacing: 2px; border-bottom: 1px solid #334155; padding-bottom: 10px; }
+        ul { list-style: none; }
+        li { background: rgba(51, 65, 85, 0.5); margin: 15px 0; padding: 22px; border-radius: 20px; transition: all 0.3s ease; border: 1px solid transparent; animation: fadeIn 1s ease-out forwards; opacity: 0; }
+        li:nth-child(1) { animation-delay: 0.2s; }
+        li:nth-child(2) { animation-delay: 0.4s; }
+        li:nth-child(3) { animation-delay: 0.6s; }
+        li:hover { background: rgba(56, 189, 248, 0.1); border-color: #38bdf8; transform: translateX(10px); }
+        a { color: #e2e8f0; text-decoration: none; font-weight: 500; display: block; }
     </style>
 </head>
 <body>
-
-<div class="container">
-    <h1>Basmah Bader Al Ali</h1>
-    <p class="subtitle">Office Management & Administrative Operations Professional</p>
-    
-    <div class="section">
-        <h2>About Me</h2>
-        <p>I hold a Diploma degree in Office Management from Princess Nourah University. My professional journey includes a significant five-month internship at the Ministry of the National Guard – Health Affairs, where I developed a deep understanding of corporate operations and administrative excellence.</p>
-        <p>I specialize in professional correspondence, managing complex expense schedules, and maintaining high-level organizational efficiency to ensure smooth departmental workflows.</p>
+    <div class="container">
+        <h1>Basmah Bader Al Ali</h1>
+        <div class="contact-info">
+            <p>Phone: <a href="tel:+966504185402">0504185402</a></p>
+            <p>Email: <a href="mailto:basmahalali21@gmail.com">basmahalali21@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/basmaah?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank" rel="noopener noreferrer">View Profile</a></p>
+        </div>
+        <div class="section">
+            <h2>Certificates & Documents</h2>
+            <ul>
+                <li><a href="Ministry_of_National_Guard_.pdf" target="_blank" rel="noopener noreferrer">Ministry of National Guard Recommendation</a></li>
+                <li><a href="Office_Management_Exit_Exam.pdf" target="_blank" rel="noopener noreferrer">Office Management Exit Exam</a></li>
+                <li><a href="Training_Recommendation_Letter_N.pdf" target="_blank" rel="noopener noreferrer">Training Recommendation Letter</a></li>
+            </ul>
+        </div>
     </div>
-
-    <div class="section">
-        <h2>Skills & Expertise</h2>
-        <ul>
-            <li><strong>Microsoft Office Suite:</strong> Advanced proficiency in Excel for data analysis, Word for reporting, and Outlook for professional communication.</li>
-            <li><strong>Administrative Operations:</strong> Skilled in managing office resources, coordinating schedules, and documenting operational requirements.</li>
-            <li><strong>PR & HR Support:</strong> Dedicated to fostering a positive workplace environment through effective communication and organized administrative support.</li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Professional Credentials</h2>
-        <ul>
-            <li><a href="https://docs.google.com/viewer?url=https://github.com/Basmah-alali21/Professional-portfolio/raw/main/Office_Management_Exit_Exam.pdf" target="_blank">Office Management Diploma – Princess Nourah University</a></li>
-            <li><a href="https://docs.google.com/viewer?url=https://github.com/Basmah-alali21/Professional-portfolio/raw/main/Ministry_of_National_Guard_.pdf" target="_blank">Administrative Training Completion – Ministry of the National Guard</a></li>
-        </ul>
-    </div>
-
-    <div class="section">
-        <h2>Let's Connect</h2><p>I am eager to contribute my strong administrative skills and knowledge to support high-performing teams in general management, PR, and Human Resources.</p>
-        <a href="mailto:basmahalali21@gmail.com" class="contact-btn">Email Me</a>
-    </div>
-</div>
-
 </body>
 </html>
